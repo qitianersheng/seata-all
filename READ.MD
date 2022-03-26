@@ -33,3 +33,6 @@ TCC模式：com.example.one.controller.OneController.oneTcc
 
 
 * 这些配置，本地eureka是7001的端口，seata是默认的8091。
+
+* 自己mac电脑的seata-server地址是~~文稿/software-file/seata/seata-server-1.4.2 
+
