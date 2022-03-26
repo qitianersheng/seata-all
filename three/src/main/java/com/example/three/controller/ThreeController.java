@@ -24,7 +24,7 @@ public class ThreeController {
     public String three(){
 
         rmThreeService.rm3();
-        int i = 1/0;
+//        int i = 1/0;
         return "成功";
     }
 

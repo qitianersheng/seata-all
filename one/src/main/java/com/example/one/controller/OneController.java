@@ -15,6 +15,11 @@ public class OneController {
     @Autowired
     RmOneService rmOneService;
 
+    /**
+     * 这个是AT模式
+     * @return
+     * @throws InterruptedException
+     */
     @GetMapping("/one")
     @GlobalTransactional(rollbackFor = Exception.class)
     public String one() throws InterruptedException {

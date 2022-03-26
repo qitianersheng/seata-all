@@ -2,15 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="three" />
         <module name="seata-all" />
-        <module name="one" />
+        <module name="three" />
         <module name="two" />
         <module name="eureka" />
+        <module name="one" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
